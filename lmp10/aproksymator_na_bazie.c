@@ -113,7 +113,7 @@ d3fi(double a, double b, int n, int i, double x)
 }
 
 /* Pomocnicza f. do rysowania bazy */
-double
+void
 xfi(double a, double b, int n, int i, FILE *out)
 {
 	double		h = (b - a) / (n - 1);
